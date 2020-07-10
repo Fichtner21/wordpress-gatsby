@@ -7,6 +7,7 @@ import { Stack, Box, Heading, Text, Grid, Button } from "@chakra-ui/core"
 
 import Layout from "../components/layout"
 import { normalizePath } from "../utils/get-url-path"
+import "../assets/style.scss";
 
 export default ({ data, pageContext }) => (
   <Layout>

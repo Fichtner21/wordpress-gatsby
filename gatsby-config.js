@@ -12,11 +12,11 @@ module.exports = {
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/assets/images`,
-      },
-    },
+      options: {        
+          name: `images`,
+          path: `${__dirname}/src/assets/images`,
+        },      
+    },    
     {
       resolve: `gatsby-source-wordpress-experimental`,
       options: {
@@ -55,5 +55,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cache`,
+    `gatsby-plugin-sass`,
   ],
 }
